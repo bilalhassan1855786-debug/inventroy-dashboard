@@ -8,17 +8,17 @@ export default function Home() {
       <h1 className="text-3xl font-bold">📊 Inventory Dashboard</h1>
 
       <div className="grid grid-cols-3 gap-4">
-        <div className="bg-slate-800 p-4 rounded-xl">
+        <div className="bg-slate-200 p-4 rounded-xl">
           <h2>Total Products</h2>
           <p className="text-2xl">{products.length}</p>
         </div>
 
-        <div className="bg-slate-800 p-4 rounded-xl">
+        <div className="bg-slate-300 p-4 rounded-xl">
           <h2>Total Stock</h2>
           <p className="text-2xl">{totalStock}</p>
         </div>
 
-        <div className="bg-slate-800 p-4 rounded-xl">
+        <div className="bg-slate-300 p-4 rounded-xl">
           <h2>Status</h2>
           <p className="text-green-400">Active</p>
         </div>

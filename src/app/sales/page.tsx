@@ -7,12 +7,12 @@ export default function SalesPage() {
     <div className="p-6 space-y-6">
       <h1 className="text-2xl font-bold">💰 Sales Overview</h1>
 
-      <div className="bg-slate-800 p-4 rounded-xl">
+      <div className="bg-slate-400 p-4 rounded-xl">
         <h2>Total Sales</h2>
         <p className="text-3xl text-green-400">${totalSales}</p>
       </div>
 
-      <div className="bg-slate-800 p-4 rounded-xl">
+      <div className="bg-slate-300 p-4 rounded-xl">
         <h2>Monthly Breakdown</h2>
 
         <ul className="mt-3 space-y-2">

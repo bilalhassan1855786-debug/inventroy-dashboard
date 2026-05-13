@@ -6,7 +6,7 @@ export default function Card({
   value: string | number;
 }) {
   return (
-    <div className="bg-slate-800 p-4 rounded-xl">
+    <div className="bg-slate-300 p-4 rounded-xl">
       <h2 className="text-gray-400">{title}</h2>
       <p className="text-2xl font-bold">{value}</p>
     </div>
